@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="pendaftaran.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--======script=======-->
+
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div id="form_alerts"></div>
+            <div class="user-details">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-box">
+                            <label for="NAMA_LENGKAP" class="form-label">Nama Lengkap</label>
+                            <input type="text" id="NAMA_LENGKAP" name="NAMA_LENGKAP" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="TANGGAL_LAHIR" class="form-label">Tanggal Lahir</label>
+                            <input type="date" id="TANGGAL_LAHIR" name="TANGGAL_LAHIR" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="EMAIL" class="form-label">Email</label>
+                            <input type="text" id="EMAIL" name="EMAIL" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="NOMOR_HANDPHONE" class="form-label">Nomor HandPhone</label>
+                            <input type="text" id="NOMOR_HANDPHONE" name="NOMOR_HANDPHONE" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="JENIS_KELAMIN" class="form-label">Jenis kelamin</label>
+                            <id="JENIS_KELAMIN" name="JENIS_KELAMIN" class="form-control" placeholder="" required>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Laki-laki</option>
+                                <option>Perempuan</option>
+                            </select>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="ALAMAT_RUMAH" class="form-label">Alamat Rumah</label>
+                            <input type="text" id="ALAMAT_RUMAH" name="ALAMAT_RUMAH" class="form-control" placeholder="" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-box">
+                            <label for="NO_KK" class="form-label">NO KK</label>
+                            <input type="text" id="NO_KK" name="NO_KK" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="NISN" class="form-label">NISN</label>
+                            <input type="number" id="NISN" name="NISN" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="SMK" class="form-label">SMK/SMA</label>
+                            <input type="text" id="SMK" name="SMK" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="NO_NIK" class="form-label">NO NIK</label>
+                            <input type="number" id="NO_NIK" name="NO_NIK" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="TANGGAL_MASUK" class="form-label">Tanggal Masuk</label>
+                            <input type="date" id="TANGGAL_MASUK" name="TANGGAL_MASUK" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="TANGGAL_KELUAR" class="form-label">Tanggal Keluar</label>
+                            <input type="date" id="TANGGAL_KELUAR" name="TANGGAL_KELUAR" class="form-control" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Detail keluarga</span>
+
+                    <div class="fields">
+                        <div class="input-box">
+                            <label for="NAMA_AYAH" class="form-label">Nama Ayah</label>
+                            <input type="text" id="NAMA_AYAH" name="NAMA_AYAH" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="NAMA_IBU" class="form-label">Nama Ibu</label>
+                            <input type="text" id="NAMA_IBU" name="NAMA_IBU" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="TANGGAL_LAHIR_AYAH" class="form-label">Tanggal Lahir Ayah</label>
+                            <input type="date" id="TANGGAL_LAHIR_AYAH" name="TANGGAL_LAHIR_AYAH" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="TANGGAL_LAHIR_IBU" class="form-label">Tanggal Lahir Ibu</label>
+                            <input type="date" id="TANGGAL_LAHIR_IBU" name="TANGGAL_LAHIR_IBU" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="NO_NIK_IBU" class="form-label">NO NIK Ibu</label>
+                            <input type="number" id="NO_NIK_IBU" name="NO_NIK_IBU" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="NO_NIK_AYAH" class="form-label">NO NIK Ayah</label>
+                            <input type="number" id="NO_NIK_AYAH" name="NO_NIK_AYAH" class="form-control" placeholder="" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Detail pribadi</span>
+
+                    <div class="fields">
+                        <div class="input-box">
+                            <label for="HOBI" class="form-label">Hobi</label>
+                            <input type="text" id="HOBI" name="HOBI" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="HARAPAN_UNTUK_SEKOLAH" class="form-label">Harapan Untuk Sekolah</label>
+                            <input type="text" id="HARAPAN_UNTUK_SEKOLAH" name="HARAPAN_UNTUK_SEKOLAH" class="form-control" placeholder="" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="MOTIVASI" class="form-label">Motivasi</label>
+                            <input type="text" id="MOTIVASI" name="MOTIVASI" class="form-control" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Kirim Registrasi">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              <script src="pendaftaran.js "></script>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+                  <script>
+                      const scriptURL = 'https://script.google.com/macros/s/AKfycbx89kwPe2bSZtUhPTaMvAY3GB4Gb2LxaoXNn7AQ-md-HJqpblu1XTJqrDRZ-_xZ9m-7/exec'
+                      const form = document.forms['google-sheet']
+                      
+                      form.addEventListener('submit', e => {
+                          e.preventDefault()
+                          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                          .then(response => $("#form_alerts").html("<div class='alert alert-success'>Data berhasil dikirim.</div>"))
+                          .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Data gagal terkirim!.</div>"))
+                          form.reset();
+                      })
+                  </script>
+    </div>
+
+</body>
+</html>
